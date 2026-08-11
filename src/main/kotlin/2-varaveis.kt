@@ -1,17 +1,19 @@
 fun main() {
     println("Ola mundo!")
 
-    var nome: String = "Nicholas Daniel Augusto"
+    var nomeCompleto: String = "Nicholas"
+    nomeCompleto += " Daniel Augusto"
 
-    println(nome)
+    println(nomeCompleto)
 
-    var numero1 = 26
-    var numero2 = 68
+
+    val numero1 = 26
+    val numero2 = 68
     val numero3 = 100
 
-    println(numero1+numero2+numero3)
+    val soma = numero1 + numero2 + numero3
 
+    var cidade = "São Paulo"
 
-    println(numero3)
 
 }

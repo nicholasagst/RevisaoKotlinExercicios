@@ -14,7 +14,11 @@ fun main() {
     println(str.replace("Kotlin.", "Java"))
     println(str.lowercase())
     println(str.uppercase())
-    var str2:String = ("        meu nome é         NIcholas    ".trim())
-    println("        meu nome é         NIcholas    .".trim())
+    var str2:String = ("        Meu nome é         Nicholas!    ".trim())
+    val strCorrigida: String = str2.replace(Regex("\\s+")," ")
+    println("Texto com sujo - $str2")
+    println("Texto com limpo - $strCorrigida")
+
+
 
 }
