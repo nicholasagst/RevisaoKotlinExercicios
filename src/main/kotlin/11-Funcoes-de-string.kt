@@ -15,9 +15,12 @@ fun main() {
     println(str.lowercase())
     println(str.uppercase())
     var str2:String = ("        Meu nome é         Nicholas!    ".trim())
+    str2+= " E kotlin é demais!"
     val strCorrigida: String = str2.replace(Regex("\\s+")," ")
+
     println("Texto com sujo - $str2")
     println("Texto com limpo - $strCorrigida")
+
 
 
 
