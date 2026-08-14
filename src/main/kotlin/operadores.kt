@@ -4,7 +4,7 @@ menos de um ano -> 500
 4 anos ou mais -> 5000
  */
 
-fun calculabonus(tempo: Float): Float {
+/* calculabonus(tempo: Float): Float {
     if (tempo in 0f..0.9f) {
         return 500f
     } else if (tempo in 1f..3.9f) {
@@ -13,6 +13,14 @@ fun calculabonus(tempo: Float): Float {
         return 5000f
     }
     return 0f
+}*/
+fun calculabonus(tempo: Float): Float {
+    return when (tempo) {
+        in 0f..0.9f -> 500f
+        in 1f..3.9f -> 2000f
+        else -> 5000f
+
+    }
 }
 
 fun main() {
