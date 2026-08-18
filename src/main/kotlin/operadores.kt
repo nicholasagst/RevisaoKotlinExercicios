@@ -29,15 +29,19 @@ fun main() {
         "Para meses insira da seguinte forma ex:0.6 = 6 meses \n" +
         "Para finalizar digite -1 \n"+
         "Por favor, digite a quanto anos ou meses está na empresa : ")
-        val tempoEmpresa = readln().toFloat()
 
-        if(tempoEmpresa != -1f){
-            println("Seu bonus salarial, com base em tempo de empresa é de R$ ${calculabonus(tempoEmpresa)}")
-        }
-        if (tempoEmpresa == -1f) {
-            println("Você digitou : -1 Comando Sair")
-            break
-        }
+            val tempoEmpresa = readln().toFloat()
+
+
+
+            if (tempoEmpresa != -1f) {
+                println("Seu bonus salarial, com base em tempo de empresa é de R$ ${calculabonus(tempoEmpresa)}")
+            }
+            if (tempoEmpresa == -1f) {
+                println("Você digitou : -1 Comando Sair")
+                break
+            }
+
 
     }
     println("Programa Finalizado")
