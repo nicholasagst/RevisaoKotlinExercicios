@@ -1,8 +1,8 @@
 
-fun abc(): Nothing{
+/*fun abc(): Nothing{
     //função que não retorna nada , a unica coisa que pode ser retornada nela é uma exceção
     throw Exception()
-}
+}*/
 
 
 fun media(vararg abc: Any) : Float{
