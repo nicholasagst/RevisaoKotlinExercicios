@@ -1,5 +1,5 @@
 fun main() {
- val e1 = Endereco("rua 1", "cidade 1")
+ val e1 = Endereco("rua 1", "cidade1")
  val e2 = DataEndereco("rua 1", "cidade 1")
 
     println(e1.toString())
